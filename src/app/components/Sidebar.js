@@ -1,6 +1,7 @@
-import { Create, FiberManualRecord } from '@material-ui/icons'
+import { Add, Apps, BookmarkBorder, Create, Drafts, ExpandLess, ExpandMore, FiberManualRecord, Inbox, InsertChart, PeopleAlt } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
+import SidebarOption from './SidebarOption'
 
 function Sidebar() {
     return (
@@ -15,6 +16,18 @@ function Sidebar() {
                 </SidebarInfo>
                 <Create />
             </SidebarHeader>
+
+            <SidebarOption Icon={InsertChart} title="Threads" />
+            <SidebarOption Icon={Inbox} title="Mentions & reactions" />
+            <SidebarOption Icon={Drafts} title="Saved items" />
+            <SidebarOption Icon={BookmarkBorder} title="Channel Browser" />
+            <SidebarOption Icon={PeopleAlt} title="People & user groups" />
+            <SidebarOption Icon={Apps} title="File browser" />
+            <SidebarOption Icon={ExpandLess} title="Show Less" />
+            <hr />
+            <SidebarOption Icon={ExpandMore} title="Channels" />
+            <hr />
+            <SidebarOption Icon={Add} addChannelOption title="Add Channel" />
         </SidebarContainer>
     )
 }
@@ -29,6 +42,12 @@ const SidebarContainer = styled.div`
     border-top: 1px solid #49274b;
     max-width: 260px;
     margin-top: 60px;
+
+    > hr {
+        margin-top: 1px;
+        margin-bottom: 10px;
+        border: 1px solid #49274b;
+    }
 `;
 
 const SidebarHeader = styled.div`
