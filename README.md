@@ -1,10 +1,20 @@
-<h2>Chat app:</h2>
-<p>This is a Communcating website where a person can contact with him/her friend & customer community. If a person wants to use this website, he / she must first sign in to the Google Authentication process. They can create Room and contact easily.</p>
-Live link: https://chat-app-team-78.web.app/
-<h2>Technology:<h2>
-<h4>*Redux <br/>
-*React.js<br/>
-*Material Ui<br/>
-*Firebase Authentication<br/>
-*HTML<br/>
-*CSS3<br/></h4>
+# CHAT APP
+
+[Live Link](https://chat-app-team-78.web.app/).
+
+## About the project
+
+This is a Communicating website where a person can contact him/her friend & customer community. If a person wants to use this website, he/she must first sign in to the Google Authentication process. They can create Room and contact easily.
+
+
+### Made With
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Firebase Authentication</li>
+</ul>
+>>>>>>> 3510c6db03544d050976c3ff99369d32ec87bbfd
