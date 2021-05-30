@@ -4,6 +4,6 @@
 <h4>*Redux <br/>
 *React.js<br/>
 *Material Ui<br/>
-*Firebase Athuentication<br/>
+*Firebase Authentication<br/>
 *HTML<br/>
 *CSS3<br/></h4>
