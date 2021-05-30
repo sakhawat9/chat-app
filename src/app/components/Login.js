@@ -15,7 +15,9 @@ const Login = () => {
           src="https://4.imimg.com/data4/VS/EW/MY-25111881/web-chat-service-500x500.jpg"
           alt=""
         />
-        <h1>Sign up to the chat app</h1>
+        <h1>
+          <span style={{ color: "#879" }}>Chat App</span>
+        </h1>
         <Button onClick={signIn}>Sign in with Google</Button>
       </LoginInnerContainer>
     </LoginContainer>

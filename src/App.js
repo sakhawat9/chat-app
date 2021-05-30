@@ -30,7 +30,7 @@ function App() {
     <div className="app">
       <Router>
         {!user ? (
-          <Login />
+          <Login data-testid="chat-app" />
         ) : (
           <>
             <Header />
