@@ -17,3 +17,4 @@ This is a Communicating website where a person can contact him/her friend & cust
     <li>Redux</li>
     <li>Firebase Authentication</li>
 </ul>
+>>>>>>> 3510c6db03544d050976c3ff99369d32ec87bbfd
